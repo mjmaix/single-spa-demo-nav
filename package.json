@@ -6,7 +6,7 @@
     "start:standalone": "webpack serve --env standalone",
     "build": "concurrently npm:build:*",
     "build:webpack": "webpack --mode=production",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d dist",
     "analyze": "webpack --mode=production --env analyze",
     "lint": "eslint src --ext js",
     "format": "prettier --write .",
